@@ -1,0 +1,23 @@
+body,
+input,
+button {
+    font-size: 20px;
+}
+
+body {
+    background-color: gray;
+    /* margin: 50%; */
+    display: grid;
+    place-content: center center;
+    width: 100vw;
+    font-size: 20px;
+}
+
+div {
+    margin: 20px 0px;
+}
+
+li {
+    cursor: pointer;
+    user-select: none;
+}
