@@ -40,7 +40,6 @@ const displayToDos = () => {
 };
 
 const makeTextWithLineThrough = (textToBeOverLined) => {
-    // textToBeOverLined.style.textDecoration = 'line-through';
     if (textToBeOverLined.style.textDecoration === 'line-through') textToBeOverLined.style.textDecoration = 'none';
     else textToBeOverLined.style.textDecoration = 'line-through';
 };
